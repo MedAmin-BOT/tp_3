@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/design_default_color_primary" />
+
+    <EditText
+        android:id="@+id/website_edittext"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:text="http://developer.android.com"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/open_website_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="OPEN WEBSITE"
+        android:onClick="openWebsite"/>
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/purple_500" />
+
+    <EditText
+        android:id="@+id/location_edittext"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:text="ISIMS"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/open_location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="OPEN LOCATION"
+        android:onClick="openLocation"/>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/design_default_color_primary" />
+
+    <EditText
+        android:id="@+id/share_edittext"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:text="mobile programming example"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/share_text_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="SHARE TEXT"
+        android:onClick="shareText"/>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/design_default_color_primary" />
+
+</LinearLayout>
